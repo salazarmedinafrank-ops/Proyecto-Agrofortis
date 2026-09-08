@@ -3,5 +3,7 @@ No2 = int(input("Ingrese un numero"))
 No3 = int(input("Ingrese un numero"))
 
 
-if No1 and No2 <= No3:
-    print("El numero mayor")
+if No1 >= No2 and a >= No3:
+    mayor = No1
+    if No2 >= No3:
+        intermedio, menor = No2, No3
