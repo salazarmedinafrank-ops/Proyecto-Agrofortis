@@ -26,10 +26,3 @@ else:
 
 
 
-numero = input("ingrese un numero entero: ")
-
-try:
-    numero = int(numero)
-	print(El numero ingresado es entero:", numero)
-except ValueError:
-    print("Error: debe ingresar solamente un numero entero.")
