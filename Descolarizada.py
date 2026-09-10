@@ -1,3 +1,9 @@
+num1, num2, num3 = map(int, input("Ingrese 3 números enteros separados por espacios: ").split())
+
+print("Número 1:", num1)
+print("Número 2:", num2)
+print("Número 3:", num3)
+
 num1, num2, num3 = map(int, input("Ingrese 3 numeros: ").split())
 print("positivos y negativos")
 
