@@ -1,29 +1,20 @@
-num1, num2, num3 = map(int, input("Ingrese 3 numeros: ").split())
+num1, num2, num3 = map(int, input("Ingrese 3 números enteros separados por espacios: ").split())
 
-# Buscar el mayor
-if num1 >= num2 and num1 >= num3: 
-    mayor = num1
-elif num2 >= num1 and num2 >= num3:
-    mayor = num2
+if num1 == num2 and num2 == num3:
+    print("Los tres números son iguales")
 else:
-    mayor = num3
+    if num1 == num2:
+        print("El número 1 y el número 2 son iguales")
+    else:
+        if num1 == num3:
+            print("El número 1 y el número 3 son iguales")
+        else:
+            if num2 == num3:
+                print("El número 2 y el número 3 son iguales")
+            else:
+                print("No hay números iguales")
 
-# Buscar el menor
-if num1 <= num2 and num1 <= num3:
-    menor = num1
-elif num2 <= num1 and num2 <= num3:
-    menor = num2
-else:
-    menor = num3
+print("Número 1:", num1)
+print("Número 2:", num2)
+print("Número 3:", num3)
 
-# Buscar el intermedio
-if num1 > num2 and num1 < num3:
-    Intermedio = num1
-elif num2 > num1 and num2 < num3:
-    Intermedio = num2
-else: 
-    Intermedio = num3
-
-print("El mayor es:", mayor)
-print("El menor es:", menor)
-print("El numero intermedio es:",Intermedio)
