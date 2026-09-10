@@ -1,4 +1,20 @@
 num1, num2, num3 = map(int, input("Ingrese 3 numeros: ").split())
+print("positivos y negativos")
+
+if num1 > 0:
+    print(num1, "es positivo")
+elif num1 < 0:
+    print(num1, "es negativo")
+
+if num2 > 0:
+    print(num2, "es positivo")
+elif num2 < 0:
+    print(num2, "es negativo")
+
+if num3 > 0:
+    print(num3, "es positivo")
+elif num3 < 0:
+    print(num3, "es negativo")
 
 # Buscar el mayor
 if num1 >= num2 and num1 >= num3: 
