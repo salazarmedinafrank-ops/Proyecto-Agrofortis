@@ -34,5 +34,56 @@ if num3 > 0:
 else:
     if num3 < 0:
         print("El número", num3, "es negativo")
+        
+# Buscar el mayor
+if num1 > num2:
+    mayor = num1
+else:
+    mayor = num2
 
+if mayor > num3:
+    mayor = mayor
+else:
+    mayor = num3
+
+# Buscar el menor
+if num1 < num2:
+    menor = num1
+else:
+    menor = num2
+
+if menor < num3:
+    menor = menor
+else:
+    menor = num3
+
+# Buscar el intermedio
+if num1 > num2:
+    if num2 > num3:
+        intermedio = num2
+    else:
+        if num1 < num3:
+            intermedio = num1
+        else:
+            intermedio = num3
+else:
+    if num1 > num3:
+        intermedio = num1
+    else:
+        if num2 < num3:
+            intermedio = num2
+        else:
+            intermedio = num3
+
+print("El mayor es:", mayor)
+print("El menor es:", menor)
+print("El numero intermedio es:", intermedio)
+
+print('=== SUMATORIA DE 3 NÚMEROS ===')
+
+# Realizar la sumatoria
+suma = num1 + num2 + num3
+
+# Mostrar el resultado
+print('La sumatoria de los números es:', suma)
 
