@@ -79,4 +79,16 @@ print("El mayor es:", mayor)
 print("El menor es:", menor)
 print("El numero intermedio es:", intermedio)
 
+# Sumatoria de 3 números
 
+print('=== SUMATORIA DE 3 NÚMEROS ===')
+
+numero1 = int(input('Ingrese el primer número entero: '))
+numero2 = int(input('Ingrese el segundo número entero: '))
+numero3 = int(input('Ingrese el tercer número entero: '))
+
+# Realizar la sumatoria
+suma = numero1 + numero2 + numero3
+
+# Mostrar el resultado
+print('La sumatoria de los números es:', suma)
