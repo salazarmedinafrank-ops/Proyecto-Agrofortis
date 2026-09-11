@@ -79,8 +79,11 @@ print("El mayor es:", mayor)
 print("El menor es:", menor)
 print("El numero intermedio es:", intermedio)
 
+print('=== SUMATORIA DE 3 NÚMEROS ===')
+
 # Realizar la sumatoria
-suma = numero1 + numero2 + numero3
+suma = num1 + num2 + num3
 
 # Mostrar el resultado
 print('La sumatoria de los números es:', suma)
+
